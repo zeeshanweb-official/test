@@ -1,0 +1,27 @@
+.header{position:relative;z-index:20;background:url(../src/assets/images/nv---earth---short-hd.png) no-repeat center top fixed;background-size:cover;}
+.find-search-section{max-width:600px;margin:auto;position:relative;z-index:20;padding-top:20px;}
+.search-type {display: inline-block;padding-bottom: 35px;position: relative;}
+.search-type label {background-color: #fff;color: #333;cursor: pointer;display: inline-block;text-align: center;padding: 9px 18px;margin: 0 15px 0 0;float: left;transition: all 0.2s;border-radius: 0;line-height: 27px;font-size: 16px;}
+.search-type label:hover, .search-type label.active {background-color: #208873;color: #fff;}
+.search-type input[type="radio"] {display: none;}
+.search-type-arrow {width: 0;height: 0;border-left: 15px solid transparent;border-right: 15px solid transparent;border-bottom: 15px solid #fff;position: absolute;bottom: 0;left: 0;transform: translate3d(3px,0,0);}
+.main-search-box {background-color: #fff;box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.12);padding: 30px;padding-bottom: 20px;margin-top: -9px;border-radius: 3px;}
+.main-search-input {width: 100%;position: relative;margin-bottom: 18px;display: flex;}
+.main-search-input input {display: inline-block;margin: 0 20px 0 0;flex: 1;}
+.larger-input button.button, .larger-input input {height: 55px;min-width: 120px;}
+.main-search-input button.btn-success{background-color: #208873;border:0;border-radius:0;padding:0 30px;font-weight: 700;font-size: 20px}
+.select-input {position: relative;}
+.select-input  input{height: 55px;}
+.data-unit {position: absolute;top: 50%;transform: translateY(-50%);right: 19px;font-style: normal;color: #aaa;z-index: 110;background-color: transparent;outline: 0;border: 0;padding: 0 0 0 10px;margin: 0;pointer-events: none;background-color: #fff;}
+
+.inp-rdr{border:1px solid #dce0e6;}
+.inp-rdr .bootstrap-select>.dropdown-toggle{padding: 6px 0;}
+
+.more-search-options-trigger:before {content: "\f055";font-family: "FontAwesome";padding-right: 7px;}
+.more-search-options-trigger.active:before {content: "\f056";}
+
+.main-search-form .multilang .bootstrap-select {width: 100%!important;}
+.more-search-box{padding:10px 0 0;}
+
+
+.header{padding:30px 0;font-size:20px;text-align:center;border-bottom:1px solid #bbb;}
